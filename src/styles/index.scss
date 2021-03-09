@@ -1,0 +1,24 @@
+// $theme-colors: (
+//     "info": tomato,
+//     "danger": teal
+// );
+
+// /* import bootstrap to set changes */
+@import "~bootstrap/scss/bootstrap";
+
+.todos {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    .todo {
+        padding: 10px 0px;
+        background-color: lightblue;
+        margin-bottom: 10px;
+        .completed {
+            text-decoration: line-through;
+        }
+    }
+    .todo.completed{
+        background-color: lightcoral;
+    }
+}
